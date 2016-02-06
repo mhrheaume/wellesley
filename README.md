@@ -24,7 +24,7 @@ This is the code for the Wellesley Hackathon with Twitter Boston.
 
 ### Configure the App
 
-Open `src/main/java/com/twitter/mtv/interview/services/TwitterService.java` and replace the following variables with the tokens you generated above.
+Open `src/main/java/com/twitter/mtv/hackathon/services/TwitterService.java` and replace the following variables with the tokens you generated above.
 
     private final String consumerKey = ";
     private final String consumerSecret = ";
