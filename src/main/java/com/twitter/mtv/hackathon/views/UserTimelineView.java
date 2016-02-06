@@ -26,11 +26,17 @@ public class UserTimelineView {
     private long id;
     private String username;
     private String text;
+    //add variable
+    private String retweet;
+    private String profpic;
 
     public TweetView(Tweet tweet) {
       this.id = tweet.id();
       this.username = tweet.username();
       this.text = tweet.text();
+      //add retweet variable
+      this.retweet = tweet.isRetweeted();
+      this.profpic = tweet.getProfPicID();
     }
   }
 }

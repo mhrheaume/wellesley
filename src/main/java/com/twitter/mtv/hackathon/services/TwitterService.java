@@ -14,10 +14,10 @@ import java.util.List;
 public class TwitterService {
   private final Twitter twitterApi;
 
-  private final String consumerKey = "";
-  private final String consumerSecret = "";
-  private final String accessToken = "";
-  private final String accessTokenSecret = "";
+  private final String consumerKey = "GYu1tAS67PImQPfFB3KLktG1z";
+  private final String consumerSecret = "XcZ7DmG0MHbEu5N14m4dtXg75v2sT97e2Iw5ovujcwKvlJbp3T";
+  private final String accessToken = "4880128883-2Z4U2UpryEZdj53JaWLD2LBx0PySnd1faaedFZT";
+  private final String accessTokenSecret = "FRKtxzP6bDfIWeMm5LJeRMQxPTwBMF6k9ZyjDmQiTPq4S";
 
   public TwitterService(Twitter twitterApi) {
     this.twitterApi = twitterApi;
@@ -38,7 +38,7 @@ public class TwitterService {
   public List<Tweet> getUserTimeline() {
     ArrayList<Tweet> response = new ArrayList<Tweet>();
     try {
-      for (Status tweet : twitterApi.getUserTimeline(586671909)) {
+      for (Status tweet : twitterApi.getUserTimeline("HillaryClinton")) {
         response.add(new Tweet(tweet));
       }
     } catch (TwitterException e) {

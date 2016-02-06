@@ -13,7 +13,9 @@ var TwitterActions = {
             return {
               id: elem.id,
               username: elem.username,
-              text: elem.text
+              text: elem.text,
+              retweet: elem.retweet,
+              profpic: elem.profpic,
             };
           })
         })
