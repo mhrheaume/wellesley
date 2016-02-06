@@ -1,4 +1,4 @@
-package com.twitter.mtv.interview.controllers;
+package com.twitter.mtv.hackathon.controllers;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
-import com.twitter.mtv.interview.views.IndexView;
+import com.twitter.mtv.hackathon.views.IndexView;
 
 public class IndexController implements HttpHandler {
   public IndexController() {

@@ -1,7 +1,7 @@
-package com.twitter.mtv.interview.views;
+package com.twitter.mtv.hackathon.views;
 
 import com.google.gson.Gson;
-import com.twitter.mtv.interview.models.Tweet;
+import com.twitter.mtv.hackathon.models.Tweet;
 
 import java.util.ArrayList;
 import java.util.List;

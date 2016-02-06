@@ -1,4 +1,4 @@
-package com.twitter.mtv.interview.views;
+package com.twitter.mtv.hackathon.views;
 
 public class IndexView extends BaseView {
   public IndexView() {

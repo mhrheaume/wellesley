@@ -1,6 +1,6 @@
-package com.twitter.mtv.interview.services;
+package com.twitter.mtv.hackathon.services;
 
-import com.twitter.mtv.interview.models.Tweet;
+import com.twitter.mtv.hackathon.models.Tweet;
 import twitter4j.ResponseList;
 import twitter4j.Status;
 import twitter4j.Twitter;

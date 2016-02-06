@@ -1,4 +1,4 @@
-package com.twitter.mtv.interview.models;
+package com.twitter.mtv.hackathon.models;
 
 import twitter4j.Status;
 

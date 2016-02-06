@@ -1,4 +1,4 @@
-package com.twitter.mtv.interview.controllers;
+package com.twitter.mtv.hackathon.controllers;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -7,9 +7,9 @@ import java.util.List;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
-import com.twitter.mtv.interview.models.Tweet;
-import com.twitter.mtv.interview.services.TwitterService;
-import com.twitter.mtv.interview.views.UserTimelineView;
+import com.twitter.mtv.hackathon.models.Tweet;
+import com.twitter.mtv.hackathon.services.TwitterService;
+import com.twitter.mtv.hackathon.views.UserTimelineView;
 
 public class UserTimelineController implements HttpHandler {
   private TwitterService twitter;

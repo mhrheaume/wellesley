@@ -35,21 +35,21 @@ Open `src/main/java/com/twitter/mtv/interview/services/TwitterService.java` and 
 
 From the root of the repository, build and run the Java app with Maven:
 
-	mvn package
-	mvn exec:java -Dexec.mainClass="com.twitter.mtv.interview.App"
+    mvn package
+    mvn exec:java -Dexec.mainClass="com.twitter.mtv.hackathon.App"
 
 Now build and run the React front end:
 
-	cd src/main/resources/js
-	npm install
-	npm start
+    cd src/main/resources/js
+    npm install
+    npm start
 
 You can then see the app by opening it in a browser:
 
-	open http://localhost:8000
+    open http://localhost:8000
 
 ## Resources
 
-* Twitter API: https://dev.twitter.com/overview/documentation
-* Twitter4J: http://twitter4j.org/en/index.html
 * React.js: https://facebook.github.io/react/
+* Twitter4J: http://twitter4j.org/en/index.html
+* Twitter API: https://dev.twitter.com/overview/documentation

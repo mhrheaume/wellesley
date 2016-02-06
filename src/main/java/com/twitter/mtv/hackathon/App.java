@@ -1,12 +1,12 @@
-package com.twitter.mtv.interview;
+package com.twitter.mtv.hackathon;
 
 import com.sun.net.httpserver.HttpServer;
 
 import java.net.InetSocketAddress;
 
-import com.twitter.mtv.interview.controllers.IndexController;
-import com.twitter.mtv.interview.controllers.UserTimelineController;
-import com.twitter.mtv.interview.services.TwitterService;
+import com.twitter.mtv.hackathon.controllers.IndexController;
+import com.twitter.mtv.hackathon.controllers.UserTimelineController;
+import com.twitter.mtv.hackathon.services.TwitterService;
 
 public class App {
   public static void main(String[] args) throws Exception {

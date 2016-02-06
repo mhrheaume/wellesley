@@ -1,4 +1,4 @@
-package com.twitter.mtv.interview.views;
+package com.twitter.mtv.hackathon.views;
 
 import com.github.mustachejava.DefaultMustacheFactory;
 import com.github.mustachejava.Mustache;
