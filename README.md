@@ -38,7 +38,7 @@ From the root of the repository, build and run the Java app with Maven:
     mvn package
     mvn exec:java -Dexec.mainClass="com.twitter.mtv.hackathon.App"
 
-Now install dependencies and bundle the React front end:
+Now in a different terminal, install dependencies and bundle the React front end:
 
     cd src/main/resources/js
     npm install
