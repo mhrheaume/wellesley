@@ -16,20 +16,20 @@ This is the code for the Wellesley Hackathon with Twitter Boston.
 
 ### Generating API Keys
 
-1. Log into twitter.com and go to https://apps.twitter.com developer page.
+1. Go to https://apps.twitter.com and log in with your Twitter account.
 2. Click on "Create New App".
-3. Give you application a unique name and description. For the website you can just enter https://www.twitter.com.
-4. Accept the developer agreement and click on the "Create your Twitter application".
-5. Once the app is created, click "Keys and Access Tokens", and then click "Create Access Token" under "Your Access Token".
+3. Give your application a unique name and description. For the website you can just enter https://www.twitter.com.
+4. Accept the developer agreement and click "Create your Twitter application".
+5. Once the app is created, click on the "Keys and Access Tokens" tab, and then click "Create Access Token" under "Your Access Token".
 
 ### Configure the App
 
-Open `src/main/java/com/twitter/mtv/hackathon/services/TwitterService.java` and replace the following variables with the tokens you generated above.
+Open `src/main/java/com/twitter/mtv/hackathon/services/TwitterService.java` and replace the following variables with the tokens you generated above:
 
-    private final String consumerKey = ";
-    private final String consumerSecret = ";
-    private final String accessToken = ";
-    private final String accessTokenSecret = ";
+    private final String consumerKey = "";
+    private final String consumerSecret = "";
+    private final String accessToken = "";
+    private final String accessTokenSecret = "";
 
 ### Compile and Run the App
 
@@ -38,7 +38,7 @@ From the root of the repository, build and run the Java app with Maven:
     mvn package
     mvn exec:java -Dexec.mainClass="com.twitter.mtv.hackathon.App"
 
-Now build and run the React front end:
+Now install dependencies and bundle the React front end:
 
     cd src/main/resources/js
     npm install
